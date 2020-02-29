@@ -1,4 +1,4 @@
-# bass utils
+# bass-utils
 
 ## ToDo;
 
