@@ -5,3 +5,4 @@
 * [ ] Python module structuring
 * [ ] unittesting
 * [ ] Travis CI
+* [ ] PyPI
