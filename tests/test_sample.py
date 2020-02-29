@@ -10,6 +10,9 @@ import sample.text as txt
 class TestCalc(unittest.TestCase):
     """ All functions should start with `test_` """
 
+    def test_txt(self):
+        self.assertEqual(txt.func(), 'hahahaha')
+
     def test_text(self):
         self.assertEqual(txt.func(), 'hahahaha')
 

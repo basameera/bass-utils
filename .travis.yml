@@ -11,3 +11,4 @@ install:
 # command to run tests
 script:
   - python sample/tests/test_basic.py
+  - python tests/test_sample.py
