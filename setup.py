@@ -10,7 +10,7 @@ def readme():
 
 
 setup(name='bassutils',
-      version='0.0.1',
+      version='0.0.2',
       description='Python package testing',
       long_description=readme(),
       long_description_content_type="text/markdown",
