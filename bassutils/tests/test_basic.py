@@ -4,8 +4,8 @@ import sys
 
 sys.path.insert(0, os.getcwd())
 
-import sample.abc as calc
-import sample.text as txt
+import bassutils.abc as calc
+import bassutils.text as txt
 
 class TestCalc(unittest.TestCase):
     """ All functions should start with `test_` """
