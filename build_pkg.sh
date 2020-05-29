@@ -7,7 +7,6 @@ if [ "$#" -ne 1 ]; then
 fi
 
 # Build .tar.gz and .whl files
-
 echo Building....
 python setup.py sdist --dist-dir 'dist/'$1 bdist_wheel --dist-dir 'dist/'$1
 

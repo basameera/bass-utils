@@ -2,6 +2,7 @@
 
 from setuptools import setup
 
+version = '0.0.2'
 
 def readme():
     with open('README.md') as f:
@@ -10,7 +11,7 @@ def readme():
 
 
 setup(name='bassutils',
-      version='0.0.2',
+      version=version,
       description='Python package testing',
       long_description=readme(),
       long_description_content_type="text/markdown",
@@ -21,7 +22,6 @@ setup(name='bassutils',
       classifiers=[
           "License :: OSI Approved :: MIT License",
           "Programming Language :: Python :: 3",
-          "Programming Language :: Python :: 3.4",
           "Programming Language :: Python :: 3.5",
           "Programming Language :: Python :: 3.6",
           "Programming Language :: Python :: 3.7",

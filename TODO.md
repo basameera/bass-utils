@@ -37,7 +37,7 @@ https://docs.python-guide.org/writing/structure/
 
 ## PyPI
 
-1. Run `bash pkg_build` 
+1. Run `bash build_pkg.sh` 
 
 2. Setup `$HOME/.pypirc` file
 
@@ -59,7 +59,7 @@ password: API key starting with pypi-
 
 3. Secure the file : `chmod 600 ~/.pypirc` 
 
-After running `bash pkg_build` follow steps in https://truveris.github.io/articles/configuring-pypirc/
+After running `bash build_pkg.sh` follow steps in https://truveris.github.io/articles/configuring-pypirc/
 
 ### Resources
 
